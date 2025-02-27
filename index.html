@@ -1,0 +1,226 @@
+<!DOCTYPE <html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Personal Portflio Website</title>
+            <link rel="stylesheet" href="style.css">
+            <script src="https://kit.fontawesome.com/5827ecda48.js" crossorigin="anonymous"></script>
+        </head>
+        <body>
+            <div id="header">
+                <div class="container">
+                    <nav>
+                        <img src="images/sanskritilogo.png" class="logo">
+                        <ul id="sidemenu">
+                            <li><a href="#header">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <i class="fas fa-times" onclick="closemenu()"></i>
+                        </ul>
+                        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    </nav>
+                    <div class="header-text">
+                    <p>Sophomore</p>
+                    <h1>Hi,I am <span>Sanskriti Tiwari</span> <br> a second year Computer Science student</h1>
+                    </div>
+                </div>
+
+            </div>
+        <!---------about---------->
+            <div id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-col-1">
+                            <img src="images/Sanskriti.png">
+                        </div>
+                        <div class="about-col-2">
+                            <h1 class="sub-title">About me</h1>
+                            <p>An enthusiastic second-year Computer
+                                Science student with a strong interest in
+                                emerging technologies. Driven by a passion
+                                for coding, eager to explore innovative
+                                solutions and gain hands-on experience.
+                                Seeking opportunities to learn, create, and
+                                contribute to impactful projects. </p>
+                                <div class="tab-titles">
+                                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                                </div>
+                                <div class="tab-contents active-tab" id="skills">
+                                    <ul>
+                                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                        <li><span>Programming Languages</span><br>C,C++,Java,Python</li>
+                                        <li><span>IDEs/Tools</span><br>Visual Studio Code,Android Studio,JupyterNotebook,Github,Brackets</li>
+                                        <li><span>Designing Tools</span><br>AutoCAD,Canva,Figma</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-contents" id="experience">
+                                    <ul>
+                                        <li><span>Web Development Enthusiast</span><br>Currently learning and building projects using HTML, CSS, and JavaScript.<br>
+                                            Created responsive web pages focusing on clean design and user-friendly interfaces.</li>
+                                        <li><span>Academic Projects</span><br>AI-Driven Dynamic Power Management System: Developing an AI-based Android app to optimize battery performance by predicting app usage patterns.<br><br>Employee Record System:Developed an Employee Record System in C/C++ to streamline employee data management with secure, user-friendly interfaces.</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-contents" id="education">
+                                    <ul>
+                                        <li><span>2023-2027</span><br>SRM Institute of Science and Technology<br>B.Tech CSE</li>
+                                        <li><span>XII(ISC)(2023 Batch)</span><br>Mercy Memorial School(Kanpur,Uttar Pradesh)</li>
+                                        <li><span>X(ICSE)(2020 Batch)</span><br>Mercy Memorial School(Kanpur,Uttar Pradesh)</li>
+                                    </ul>
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--services-->
+            <div id="services">
+                <div class="container">
+                    <h1 class="sub-title">My services</h1>
+                    <div class="srvices-list">
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h2>Web Development</h2>
+                            <p>Crafting responsive, user-friendly websites using HTML, CSS, and JavaScript.
+                                Focused on clean design and creating seamless user experiences.</p>
+                                <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-windows"></i>
+                            <h2>Software Solutions</h2>
+                            <p>Developing efficient programs and systems using C, C++, Java, and Python.
+                            Passionate about solving real-world problems through innovative coding solutions.</p>
+                                <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-file"></i>
+                            <h2>Collaborative Projects</h2>
+                            <p>Contributing to team-based projects with strong organizational and problem-solving skills.
+                                Experienced in designing and implementing creative technical solutions.</p>
+                                <a href="#">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----portfolio------->
+            <div id="portfolio">
+                <div class="container">
+                    <h1 class="sub-title">My Work</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="images/work-1.png">
+                            <div class="layer">
+                                <h3>AI-Driven Dynamic Power Management System</h3>
+                                <p>An Android app that uses AI to optimize device performance and battery life by dynamically managing CPU, memory, and network resources across performance, battery-saving, and balanced modes.</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/work-2.png">
+                            <div class="layer">
+                                <h3>Employee Record System</h3>
+                                <p>An Android app that uses AI to optimize device performance and battery life by dynamically managing CPU, memory, and network resources across performance, battery-saving, and balanced modes.</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/work-3.png">
+                            <div class="layer">
+                                <h3>ABC System</h3>
+                                <p>An Android app that uses AI to optimize device performance and battery life by dynamically managing CPU, memory, and network resources across performance, battery-saving, and balanced modes.</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn"> See more</a>
+                </div>
+            </div>
+            <!-------contact-------->
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fa-solid fa-square-envelope"></i> sanskritiwari215@gmail.com</p>
+                            <p> <i class="fa-solid fa-phone"></i> +91 9336584635</p>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/sanskriti-tiwari-89941b265" target="blank" rel="noopener noreferrer" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://github.com/sanskriti-tiwari"target="blank" rel="noopener noreferrer" title="GitHub"><i class="fa-brands fa-github"></i>></i></a>
+                            </div>
+                            <a href="images/my-cv.pdf" class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="Email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="copyright">
+                    <p>Copyright © 2024 Sanskriti Tiwari. All Rights Reserved.</p>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <script>
+                var tablinks=document.getElementsByClassName("tab-links");
+                var tabcontents=document.getElementsByClassName("tab-contents");
+                function opentab(tabname){
+                    for(tablink of tablinks){
+                        tablink.classList.remove("active-link");
+                    }
+                    for(tabcontent of tabcontents){
+                        tabcontent.classList.remove("active-tab");
+                    }
+                    event.currentTarget.classList.add("active-link");
+                    document.getElementById(tabname).classList.add("active-tab");
+                }
+            </script>
+
+            <script>
+                var sidemenu=document.getElementById("sidemenu");
+                function openmenu(){
+                    sidemenu.style.right="0";
+                
+                }
+                function closemenu(){
+                    sidemenu.style.right="-200px";
+                
+                }
+            </script>
+            <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbznAF4-2QG0SyHVnvTjKxTxqnn1uXUFx1hrm_CXyyOvLxMWjormm92e7-GdOdhcUAUx/exec'
+                const form = document.forms['submit-to-google-sheet']
+                const msg=document.getElementById("msg")
+              
+                form.addEventListener('submit', e => {
+                  e.preventDefault()
+                  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(response =>{
+                        msg.innerHTML="Message sent successfully"
+                        setTimeout(function(){
+                            msg.innerHTML=""
+                        },5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+                })
+              </script>
+        </body>
+</html>
